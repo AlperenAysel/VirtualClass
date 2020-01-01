@@ -40,7 +40,8 @@ class ViewController: UIViewController, CAAnimationDelegate {
         super.viewDidLoad()
 //        addUser()
         pullUsers()
-        print(allUsers)
+        print(allUsers , allID)
+        
         if MyVariables.playing == false {
             MusicPlayer.shared.start()
             MyVariables.playing = true
@@ -277,6 +278,13 @@ class ViewController: UIViewController, CAAnimationDelegate {
         }
         return false
 
+    }
+    
+    func testing(i: Int) -> Bool {
+        if i == 2 {
+            return true
+        }
+        return false
     }
         
     

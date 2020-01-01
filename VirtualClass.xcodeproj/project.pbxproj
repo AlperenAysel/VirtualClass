@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,11 +28,23 @@
 		056ABDA423904EFF0071F0E7 /* TeachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056ABDA323904EFF0071F0E7 /* TeachViewController.swift */; };
 		05747790238D54FD00D0CDE8 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574778F238D54FD00D0CDE8 /* StudentViewController.swift */; };
 		05747792238D56C400D0CDE8 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05747791238D56C400D0CDE8 /* ExamViewController.swift */; };
+		0585603C23BD08A400E09EB7 /* VirtualClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0585603B23BD08A400E09EB7 /* VirtualClassTests.swift */; };
 		05AB7A3C23AE89D100D76FEE /* VirtualClass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05AB7A3A23AE89D100D76FEE /* VirtualClass.xcdatamodeld */; };
 		05BB82E623B004B900D37C3E /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB82E523B004B900D37C3E /* StatsViewController.swift */; };
 		05E58C4E239E538200B7FA77 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E58C4D239E538200B7FA77 /* SoundPlayer.swift */; };
 		05E58C50239E558A00B7FA77 /* Dream_Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05E58C4F239E558A00B7FA77 /* Dream_Background.mp3 */; };
+		9DD0B2B7643C6BC7576AB8C9 /* Pods_VirtualClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A96CC5929ADAA382A5CDAF6 /* Pods_VirtualClass.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0585603E23BD08A400E09EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0527D99A23744B5800CBA134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0527D9A123744B5800CBA134;
+			remoteInfo = VirtualClass;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0527D9A223744B5800CBA134 /* VirtualClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,14 +70,28 @@
 		056ABDA323904EFF0071F0E7 /* TeachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachViewController.swift; sourceTree = "<group>"; };
 		0574778F238D54FD00D0CDE8 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		05747791238D56C400D0CDE8 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		0585603923BD08A400E09EB7 /* VirtualClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0585603B23BD08A400E09EB7 /* VirtualClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualClassTests.swift; sourceTree = "<group>"; };
+		0585603D23BD08A400E09EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05AB7A3B23AE89D100D76FEE /* VirtualClass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualClass.xcdatamodel; sourceTree = "<group>"; };
 		05BB82E523B004B900D37C3E /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		05E58C4D239E538200B7FA77 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		05E58C4F239E558A00B7FA77 /* Dream_Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dream_Background.mp3; sourceTree = "<group>"; };
+		8A96CC5929ADAA382A5CDAF6 /* Pods_VirtualClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC58B05E1E449524711DE8D7 /* Pods-VirtualClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualClass.debug.xcconfig"; path = "Target Support Files/Pods-VirtualClass/Pods-VirtualClass.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB9126BA94D5B437C05CF13 /* Pods-VirtualClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualClass.release.xcconfig"; path = "Target Support Files/Pods-VirtualClass/Pods-VirtualClass.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0527D99F23744B5800CBA134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD0B2B7643C6BC7576AB8C9 /* Pods_VirtualClass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0585603623BD08A400E09EB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,7 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				0527D9A423744B5800CBA134 /* VirtualClass */,
+				0585603A23BD08A400E09EB7 /* VirtualClassTests */,
 				0527D9A323744B5800CBA134 /* Products */,
+				F0EA663AC79A66FBD8DC501C /* Pods */,
+				B61E82D87C5F88B9FAF22B5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0527D9A223744B5800CBA134 /* VirtualClass.app */,
+				0585603923BD08A400E09EB7 /* VirtualClassTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +162,32 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		0585603A23BD08A400E09EB7 /* VirtualClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				0585603B23BD08A400E09EB7 /* VirtualClassTests.swift */,
+				0585603D23BD08A400E09EB7 /* Info.plist */,
+			);
+			path = VirtualClassTests;
+			sourceTree = "<group>";
+		};
+		B61E82D87C5F88B9FAF22B5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A96CC5929ADAA382A5CDAF6 /* Pods_VirtualClass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EA663AC79A66FBD8DC501C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B05E1E449524711DE8D7 /* Pods-VirtualClass.debug.xcconfig */,
+				FFB9126BA94D5B437C05CF13 /* Pods-VirtualClass.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0527D9B623744B5900CBA134 /* Build configuration list for PBXNativeTarget "VirtualClass" */;
 			buildPhases = (
+				DBAE102AAD10FF46B87DF6D4 /* [CP] Check Pods Manifest.lock */,
 				0527D99E23744B5800CBA134 /* Sources */,
 				0527D99F23744B5800CBA134 /* Frameworks */,
 				0527D9A023744B5800CBA134 /* Resources */,
+				CD8EB09FE1EA07FDDCD7CDA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,18 +210,40 @@
 			productReference = 0527D9A223744B5800CBA134 /* VirtualClass.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0585603823BD08A400E09EB7 /* VirtualClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0585604223BD08A400E09EB7 /* Build configuration list for PBXNativeTarget "VirtualClassTests" */;
+			buildPhases = (
+				0585603523BD08A400E09EB7 /* Sources */,
+				0585603623BD08A400E09EB7 /* Frameworks */,
+				0585603723BD08A400E09EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0585603F23BD08A400E09EB7 /* PBXTargetDependency */,
+			);
+			name = VirtualClassTests;
+			productName = VirtualClassTests;
+			productReference = 0585603923BD08A400E09EB7 /* VirtualClassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0527D99A23744B5800CBA134 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Alperen;
 				TargetAttributes = {
 					0527D9A123744B5800CBA134 = {
 						CreatedOnToolsVersion = 11.2;
+					};
+					0585603823BD08A400E09EB7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0527D9A123744B5800CBA134;
 					};
 				};
 			};
@@ -181,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				0527D9A123744B5800CBA134 /* VirtualClass */,
+				0585603823BD08A400E09EB7 /* VirtualClassTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +283,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0585603723BD08A400E09EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD8EB09FE1EA07FDDCD7CDA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualClass/Pods-VirtualClass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualClass/Pods-VirtualClass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualClass/Pods-VirtualClass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAE102AAD10FF46B87DF6D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualClass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0527D99E23744B5800CBA134 /* Sources */ = {
@@ -228,7 +358,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0585603523BD08A400E09EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0585603C23BD08A400E09EB7 /* VirtualClassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0585603F23BD08A400E09EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0527D9A123744B5800CBA134 /* VirtualClass */;
+			targetProxy = 0585603E23BD08A400E09EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0527D9AB23744B5800CBA134 /* Main.storyboard */ = {
@@ -366,6 +512,7 @@
 		};
 		0527D9B723744B5900CBA134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC58B05E1E449524711DE8D7 /* Pods-VirtualClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +530,7 @@
 		};
 		0527D9B823744B5900CBA134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB9126BA94D5B437C05CF13 /* Pods-VirtualClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +543,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0585604023BD08A400E09EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alperen.VirtualClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualClass.app/VirtualClass";
+			};
+			name = Debug;
+		};
+		0585604123BD08A400E09EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alperen.VirtualClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualClass.app/VirtualClass";
 			};
 			name = Release;
 		};
@@ -415,6 +601,15 @@
 			buildConfigurations = (
 				0527D9B723744B5900CBA134 /* Debug */,
 				0527D9B823744B5900CBA134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0585604223BD08A400E09EB7 /* Build configuration list for PBXNativeTarget "VirtualClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0585604023BD08A400E09EB7 /* Debug */,
+				0585604123BD08A400E09EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module Pods_VirtualClass {
+  umbrella header "Pods-VirtualClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

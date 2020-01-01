@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Progress" representedClassName="Progress" syncable="YES" codeGenerationType="class">
+        <attribute name="currentProgress" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="studentID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="subjectID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Question" representedClassName="Question" syncable="YES" codeGenerationType="class">
+        <attribute name="answer2" optional="YES" attributeType="Binary"/>
+        <attribute name="answer3" optional="YES" attributeType="Binary"/>
+        <attribute name="answer4" optional="YES" attributeType="Binary"/>
+        <attribute name="correct" optional="YES" attributeType="Binary"/>
+        <attribute name="hasPics" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="q" optional="YES" attributeType="String"/>
+        <attribute name="subject" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Schedule" representedClassName="Schedule" syncable="YES" codeGenerationType="class">
+        <attribute name="lastExamDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="studentID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Score" representedClassName="Score" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="studentID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Subject" representedClassName="Subject" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isStudent" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Progress" positionX="92.484375" positionY="180.359375" width="128" height="88"/>
+        <element name="Question" positionX="-70.4375" positionY="-90.12890625" width="128" height="148"/>
+        <element name="Schedule" positionX="-70.59765625" positionY="158.40625" width="128" height="73"/>
+        <element name="Score" positionX="-6.6953125" positionY="68.59765625" width="128" height="88"/>
+        <element name="Subject" positionX="182.07421875" positionY="64.16796875" width="128" height="73"/>
+        <element name="User" positionX="101.58984375" positionY="-89.3984375" width="128" height="103"/>
+    </elements>
+</model>
